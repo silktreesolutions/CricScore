@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.silktree.project.cricscore.Interface1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/close3"
+        android:onClick="close"/>
+
+        <TextView
+            android:id="@+id/batting_team_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="150dp"
+            android:text="@string/interface1_batting_team"
+            android:textAllCaps="true"
+            android:textAppearance="@style/textstyle" />
+
+        <EditText
+            android:id="@+id/batting_team_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/batting_team_textview"
+            android:background="@color/editTextBackground"
+            android:hint="@string/interface1_hint"
+            android:textColor="@color/editTextFontColor"
+            android:textColorHint="@color/editTextFontColor" />
+
+        <TextView
+            android:id="@+id/bowling_team_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/batting_team_edittext"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/interface1_bowling_team"
+            android:textAllCaps="true"
+            android:textAppearance="@style/textstyle" />
+
+        <EditText
+            android:id="@+id/bowling_team_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/bowling_team_textview"
+            android:background="@color/editTextBackground"
+            android:hint="@string/interface1_hint"
+            android:textColor="@color/editTextFontColor"
+            android:textColorHint="@color/editTextFontColor" />
+
+        <TextView
+            android:id="@+id/total_players_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bowling_team_edittext"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/interface1_total_players"
+            android:textAllCaps="true"
+            android:textAppearance="@style/textstyle" />
+
+
+        <Spinner
+            android:id="@+id/total_player_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bowling_team_edittext"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/total_players_textview">
+        </Spinner>
+
+        <Button
+            android:id="@+id/submit_buttonview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/total_players_textview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/buttonBackground"
+            android:text="@string/interface1_button_text"
+            android:textColor="@color/editTextFontColor"
+            android:onClick="submit"/>
+
+    </RelativeLayout>
+
+</ScrollView>
+

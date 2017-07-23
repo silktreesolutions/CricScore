@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">CricScore</string>
+    <string name="interface1_batting_team">please enter batting team name: </string>
+    <string name="interface1_bowling_team">please enter bowling team name: </string>
+    <string name="interface1_hint">Enter Team Name Or Captain Name</string>
+    <string name="interface1_total_players">total players in each team</string>
+    <string name="interface1_button_text">Submit</string>
+    <string name="interface1_blank_batting_team_name_error_msg">Please enter batting team name.</string>
+    <string name="interface1_blank_bowling_team_name_error_msg">Please enter bowling team name.</string>
+    <string name="interface1_team_name_regex_error_msg">Team can contain only numbers and letters.</string>
+    <string name="plus_sign">+</string>
+    <string name="minus_sign">-</string>
+    <string name="score">score</string>
+    <string name="wicket">wicket</string>
+    <string name="interface2_subtract_runs_err_msg">Runs cannot be negative</string>
+    <string name="interface2_subtract_wickets_err_msg">Wickets cannot be negative</string>
+    <string name="interface2_popup_msg">Still %1$s wicket(s) are pending. Are you sure you want to complete first innings?</string>
+
+    <string-array name="interface_no_of_players_spinner">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="no_of_runs_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="title_activity_interface3">Interface3</string>
+
+    <plurals name="popupMessage">
+        <item quantity="one">Still %d wicket is pending. Are you sure you want to complete first innings?</item>
+        <item quantity="other">Still %d wickets are pending. Are you sure you want to complete first innings?</item>
+    </plurals>
+</resources>

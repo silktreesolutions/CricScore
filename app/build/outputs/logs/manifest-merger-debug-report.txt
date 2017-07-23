@@ -1,0 +1,103 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from E:\CricScore\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CricScore\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\CricScore\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CricScore\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\CricScore\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CricScore\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\admin\.android\build-cache\6aa48263b1c1645739dd7af7ebfb757c2e70d5a7\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\admin\.android\build-cache\500a19f8abcda15c737261bf69e06d7d19918b9f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\admin\.android\build-cache\5ceb1367dec9cf8801116e7504987e36d0a17bb1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\admin\.android\build-cache\5e5d4bfc576fe3960a9ba398397114420ce85e2b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\admin\.android\build-cache\87a234de8d8259b7675971a90e6979860ddc36d3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\admin\.android\build-cache\153a0fc26031cdeac6df1dba861ed53c7c1d11cb\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\admin\.android\build-cache\8c60443f5a32e89086c0bccf559ef7cb01518a47\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\admin\.android\build-cache\12f6eeb1ebb9d7c56ac8d60c537d3e4f934f4d42\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\admin\.android\build-cache\b435a04e02ab9a05c7056ebe7183db802eea71f7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\admin\.android\build-cache\56d8d4f9919972d2e18e293dcab6c2ee1370f932\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\admin\.android\build-cache\085aac5b69c20af7be5dcb483b62d09f5058c174\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\admin\.android\build-cache\b01a3bf4aeede1ef95fc06a320133ae64e4e2574\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.silktree.project.cricscore.Interface1
+ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:12:19-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.silktree.project.cricscore.Interface2
+ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:19:9-48
+	android:name
+		ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:19:19-45
+activity#com.silktree.project.cricscore.Interface3
+ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:20:9-57
+	android:name
+		ADDED from E:\CricScore\app\src\main\AndroidManifest.xml:20:19-45
+uses-sdk
+INJECTED from E:\CricScore\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\admin\.android\build-cache\6aa48263b1c1645739dd7af7ebfb757c2e70d5a7\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\admin\.android\build-cache\500a19f8abcda15c737261bf69e06d7d19918b9f\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\admin\.android\build-cache\5ceb1367dec9cf8801116e7504987e36d0a17bb1\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\admin\.android\build-cache\5e5d4bfc576fe3960a9ba398397114420ce85e2b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\admin\.android\build-cache\87a234de8d8259b7675971a90e6979860ddc36d3\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\admin\.android\build-cache\031880e7293da5a9a0358c320cd26dd6bba758ec\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\admin\.android\build-cache\153a0fc26031cdeac6df1dba861ed53c7c1d11cb\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\admin\.android\build-cache\8c60443f5a32e89086c0bccf559ef7cb01518a47\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\admin\.android\build-cache\12f6eeb1ebb9d7c56ac8d60c537d3e4f934f4d42\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\admin\.android\build-cache\b435a04e02ab9a05c7056ebe7183db802eea71f7\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\admin\.android\build-cache\56d8d4f9919972d2e18e293dcab6c2ee1370f932\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\admin\.android\build-cache\085aac5b69c20af7be5dcb483b62d09f5058c174\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\admin\.android\build-cache\b01a3bf4aeede1ef95fc06a320133ae64e4e2574\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\admin\.android\build-cache\500a19f8abcda15c737261bf69e06d7d19918b9f\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\CricScore\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CricScore\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\CricScore\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CricScore\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\admin\.android\build-cache\500a19f8abcda15c737261bf69e06d7d19918b9f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\admin\.android\build-cache\5ceb1367dec9cf8801116e7504987e36d0a17bb1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\admin\.android\build-cache\5e5d4bfc576fe3960a9ba398397114420ce85e2b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\admin\.android\build-cache\87a234de8d8259b7675971a90e6979860ddc36d3\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\admin\.android\build-cache\031880e7293da5a9a0358c320cd26dd6bba758ec\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\admin\.android\build-cache\153a0fc26031cdeac6df1dba861ed53c7c1d11cb\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\admin\.android\build-cache\8c60443f5a32e89086c0bccf559ef7cb01518a47\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\admin\.android\build-cache\12f6eeb1ebb9d7c56ac8d60c537d3e4f934f4d42\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\admin\.android\build-cache\b435a04e02ab9a05c7056ebe7183db802eea71f7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\admin\.android\build-cache\56d8d4f9919972d2e18e293dcab6c2ee1370f932\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\admin\.android\build-cache\085aac5b69c20af7be5dcb483b62d09f5058c174\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\admin\.android\build-cache\b01a3bf4aeede1ef95fc06a320133ae64e4e2574\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\admin\.android\build-cache\500a19f8abcda15c737261bf69e06d7d19918b9f\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\admin\.android\build-cache\500a19f8abcda15c737261bf69e06d7d19918b9f\output\AndroidManifest.xml:26:9-47
