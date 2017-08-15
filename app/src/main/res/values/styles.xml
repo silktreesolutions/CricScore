@@ -21,6 +21,14 @@
         <item name="android:textSize">18sp</item>
     </style>
 
+    <style name="targetstyle">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+
     <style name="scorewicketstyle">
         <item name="android:textColor">@android:color/black</item>
         <item name="android:textStyle">bold</item>

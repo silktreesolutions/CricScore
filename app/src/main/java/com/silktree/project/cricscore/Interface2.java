@@ -252,6 +252,7 @@ public class Interface2 extends AppCompatActivity {
             //Extracting the YES button view
             Button yesButton = (Button) popupView.findViewById(R.id.yes_button);
             //Setting the button listener for the YES button
+            //Setting the button listener for the YES button
             yesButton.setOnClickListener(new View.OnClickListener(){
 
                 public void onClick(View view){
@@ -262,6 +263,7 @@ public class Interface2 extends AppCompatActivity {
                     interface3.putExtra("batting_team_name", battingTeamName);
                     interface3.putExtra("bowling_team_name", bowlingTeamName);
                     interface3.putExtra("target", target);
+                    interface3.putExtra("total_players", totalNoOfPlayers);
                     //moving to interface 3
                     startActivity(interface3);
                     //closing the pop up
@@ -274,6 +276,7 @@ public class Interface2 extends AppCompatActivity {
             interface3.putExtra("batting_team_name", battingTeamName);
             interface3.putExtra("bowling_team_name", bowlingTeamName);
             interface3.putExtra("target", target);
+            interface3.putExtra("total_players", totalNoOfPlayers);
             startActivity(interface3);
         }
     }

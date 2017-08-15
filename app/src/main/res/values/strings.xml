@@ -15,6 +15,8 @@
     <string name="interface2_subtract_runs_err_msg">Runs cannot be negative</string>
     <string name="interface2_subtract_wickets_err_msg">Wickets cannot be negative</string>
     <string name="interface2_popup_msg">Still %1$s wicket(s) are pending. Are you sure you want to complete first innings?</string>
+   <string name="interface3_winning_msg_batting_team">CONGRATULATIONS TEAM %1$s on fabulous WINNING by %2$s Runs.</string>
+    <string name="interface3_winning_msg_bowling_team">CONGRATULATIONS TEAM %1$s on fabulous WINNING by %2$s Wickets.</string>
 
     <string-array name="interface_no_of_players_spinner">
         <item>1</item>
@@ -43,5 +45,15 @@
     <plurals name="popupMessage">
         <item quantity="one">Still %d wicket is pending. Are you sure you want to complete first innings?</item>
         <item quantity="other">Still %d wickets are pending. Are you sure you want to complete first innings?</item>
+    </plurals>
+    
+    <plurals name="winning_msg_batting_team">
+        <item quantity="one">CONGRATULATIONS TEAM %1$s on fabulous WINNING by %2$d Run.</item>
+        <item quantity="other">CONGRATULATIONS TEAM %1$s on fabulous WINNING by %2$d Runs.</item>
+    </plurals>
+
+    <plurals name="winning_msg_bowling_team">
+        <item quantity="one">CONGRATULATIONS TEAM %1$s on fabulous WINNING by %2$d Wicket.</item>
+        <item quantity="other">CONGRATULATIONS TEAM %1$s on fabulous WINNING by %2$d Wickets.</item>
     </plurals>
 </resources>

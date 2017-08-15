@@ -1,7 +1,7 @@
 /*
     NAME: Interface1.java
     AUTHOR: Joel Julian
-    DATE: 08-JUL-2017
+    DATE: 15-AUG-2017
     DESCRIPTION: This file will hold all the functions related to first interface
 * */
 package com.silktree.project.cricscore;
@@ -127,5 +127,28 @@ public class Interface1 extends AppCompatActivity {
 
     public int getTotalNoOfPlayers(){
         return total_no_players;
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        try {
+            Intent intent = getIntent();
+
+            if (intent != null) {
+                battingTeamName = intent.getStringExtra("batting_team_name");
+                bowlingTeamName = intent.getStringExtra("bowling_team_name");
+
+                EditText battingTeam = (EditText) findViewById(R.id.batting_team_edittext);
+                battingTeam.setText(battingTeamName.toString());
+
+                //Extracting the bowling team name
+                EditText bowlingTeam = (EditText) findViewById(R.id.bowling_team_edittext);
+                bowlingTeam.setText(bowlingTeamName.toString());
+            }
+        }catch (Exception e){
+
+        }
     }
 }

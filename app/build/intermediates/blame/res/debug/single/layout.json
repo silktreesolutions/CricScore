@@ -20,12 +20,12 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\5ceb1367dec9cf8801116e7504987e36d0a17bb1\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "E:\\CricScore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\5ceb1367dec9cf8801116e7504987e36d0a17bb1\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "E:\\CricScore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_interface2.xml",
         "source": "E:\\CricScore\\app\\src\\main\\res\\layout\\activity_interface2.xml"
+    },
+    {
+        "merged": "E:\\CricScore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\5ceb1367dec9cf8801116e7504987e36d0a17bb1\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "E:\\CricScore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -192,12 +192,12 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\500a19f8abcda15c737261bf69e06d7d19918b9f\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "E:\\CricScore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\5ceb1367dec9cf8801116e7504987e36d0a17bb1\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
         "merged": "E:\\CricScore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "C:\\Users\\admin\\.android\\build-cache\\500a19f8abcda15c737261bf69e06d7d19918b9f\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "E:\\CricScore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\5ceb1367dec9cf8801116e7504987e36d0a17bb1\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "E:\\CricScore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",

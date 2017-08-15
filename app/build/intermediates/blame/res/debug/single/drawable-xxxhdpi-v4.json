@@ -4,12 +4,12 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\5ceb1367dec9cf8801116e7504987e36d0a17bb1\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "E:\\CricScore\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\5ceb1367dec9cf8801116e7504987e36d0a17bb1\\output\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "E:\\CricScore\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\design_ic_visibility.png",
         "source": "C:\\Users\\admin\\.android\\build-cache\\500a19f8abcda15c737261bf69e06d7d19918b9f\\output\\res\\drawable-xxxhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "E:\\CricScore\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\5ceb1367dec9cf8801116e7504987e36d0a17bb1\\output\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\CricScore\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",

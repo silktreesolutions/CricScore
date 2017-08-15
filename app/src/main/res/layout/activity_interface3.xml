@@ -6,4 +6,259 @@
     android:background="@drawable/background"
     tools:context="com.silktree.project.cricscore.Interface3">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/close_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/close3"
+            android:onClick="close"/>
+
+        <LinearLayout
+            android:id="@+id/target_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/close_image_view"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="target"
+                android:textAllCaps="true"
+                android:textAppearance="@style/teamnamestyle"/>
+
+            <LinearLayout
+                android:id="@+id/final_target_linearlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:background="#6200ea">
+
+                <TextView
+                    android:id="@+id/final_target"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/teamnamestyle"
+                    tools:text="1st innings score + 1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/batting_team_linerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_below="@+id/close_image_view">
+
+            <TextView
+                android:id="@+id/batting_team_name_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="TEAM (Batting)"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@style/teamnamestyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/score_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/batting_team_linerlayout">
+
+            <Button
+                android:id="@+id/batting_plus_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plus_sign"
+                android:layout_marginLeft="50dp"
+                android:onClick="addRuns"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/score"
+                android:textAllCaps="true"
+                android:textAppearance="@style/scorewicketstyle"/>
+
+            <Button
+                android:id="@+id/batting_minus_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/minus_sign"
+                android:layout_marginLeft="5dp"
+                android:onClick="subtractRuns"/>
+
+            <Spinner
+                android:id="@+id/no_of_runs_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bowling_team_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/score_linearlayout"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bowling_team_name_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="TEAM (Bowling)"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@style/teamnamestyle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/wicket_linearlayout"
+            android:layout_below="@id/bowling_team_linearlayout"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/bowling_plus_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plus_sign"
+                android:layout_marginLeft="50dp"
+                android:onClick="addWicket"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/wicket"
+                android:textAllCaps="true"
+                android:textAppearance="@style/scorewicketstyle"/>
+
+            <Button
+                android:id="@+id/bowling_minus_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/minus_sign"
+                android:layout_marginLeft="5dp"
+                android:onClick="subtractWickets"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/batting_team_score_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/wicket_linearlayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="100dp">
+
+            <LinearLayout
+                android:id="@+id/score_wicket_linearlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wicket_linearlayout"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="50dp"
+                android:paddingLeft="50dp"
+                android:background="#cddc39">
+
+                <TextView
+                    android:id="@+id/score_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textAppearance="@style/scorewicketstyle"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/"
+                    android:textAppearance="@style/scorewicketstyle"/>
+
+                <TextView
+                    android:id="@+id/wicket_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textAppearance="@style/scorewicketstyle"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttons_linearlayout"
+            android:orientation="horizontal"
+            android:layout_below="@+id/batting_team_score_linearlayout"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:textAllCaps="false"
+                android:layout_marginLeft="75dp"
+                android:onClick="reset"/>
+
+            <Button
+                android:id="@+id/show_result_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show Result"
+                android:textAllCaps="false"
+                android:layout_marginLeft="5dp"
+                android:onClick="showResult"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/winning_msg_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/buttons_linearlayout">
+
+            <TextView
+                android:id="@+id/winning_msg_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="CONGRATULATIONS TEAM(NAME)on fabulous WINNING by (Wickets/Run/s"
+                android:visibility="invisible"
+                android:textAppearance="@style/popupstyle"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/start_new_match_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start new match"
+            android:layout_below="@+id/winning_msg_linearlayout"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            android:onClick="startNewMatch"/>
+
+    </RelativeLayout>
+
 </ScrollView>
